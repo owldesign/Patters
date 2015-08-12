@@ -8,3 +8,5 @@
 Collection of svg patterns and borders you can use for whatever you want.
 
 I'll be adding new once periodically.
+
+[Now go check it out.](http://patterns.owl-design.net/)
