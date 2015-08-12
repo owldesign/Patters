@@ -1,0 +1,44 @@
+/* ============================================ *
+ * Pages
+ * ============================================ */
+
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+// Header
+header {
+  text-align: center;
+  max-width: 960px;
+  margin: 40px auto 0 auto;
+  .logo {
+    width: 175px;
+    margin: 0 auto;
+  }
+}
+
+// Patterns
+#patterns {
+  article { position: relative; }
+  
+  .dl {
+    @include position(absolute, 0 null 0 0);
+    @include size(40px 30px);
+    background: rgba(white, .9);
+    @include transition(background .5s ease);
+    .icon { fill: rgba(black, .3); @include size(20px); @include transition(fill .5s ease); margin: 6px 0 6px 9px; }
+    &:hover {
+      background: black;
+      .icon { fill: white; }
+    }
+  }
+
+  .item { 
+    margin: 40px 0;
+    &.border {
+      @include size(100% 30px);
+    }
+  }
+}
